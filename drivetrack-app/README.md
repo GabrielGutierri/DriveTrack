@@ -44,7 +44,7 @@ O aplicativo é composto por três áreas principais: coleta de dados, históric
 A tela de coleta de dados é composta por um botão principal para iniciar uma corrida e encerrar a corrida. Ao iniciar a corrida, serviços em segundo plano são iniciados e buscam os dados de um dispositivo OBD escolhido pelo usuário. Além disso, durante a corrida, são o aplicativo ainda mostra as informações de velocidade, rotação do motor (RPM)            pressão do coletor de admissão, temperatura do ar de admissão, carga calculada do motor, posição do acelerador.
 
 
-<img src="./images/TelaColetaDados.jpeg" height= 30%/>
+<img src="./images/TelaColetaDados.jpeg" height="400px"/>
 
 ### Serviços da coleta de dados
 O sistema é composto por cinco serviços que rodam em paralelo e são acionados por **canais de método** entre Flutter (Dart) e Kotlin (Android). A imagem abaixo apresenta um desenho para os serviços mencionados.
