@@ -66,9 +66,9 @@ class _HistoricoPageState extends State<HistoricoPage> {
   Future<String> MontaURLHistorico() async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
     String nomeCarro = prefs.getString('nomeCarro') ?? "";
-    String placa = prefs.getString('placa')?? "";
+    String placa = prefs.getString('placaCarro')?? "";
 
-    return "http://192.168.0.41:5265/api/HistoricoCorridas?nomeCarro=${nomeCarro}&placaCarro=${placa}";
+    return "https://drivetrackapi-anahe8enc4gjh0fp.canadacentral-01.azurewebsites.net/api/HistoricoCorridas?nomeCarro=${nomeCarro}&placaCarro=${placa}";
   }
 
   void mostrarDetalhes(BuildContext context, Map<String, dynamic> corrida) {

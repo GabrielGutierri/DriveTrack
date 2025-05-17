@@ -18,7 +18,7 @@ namespace DriveTrackAPI.Controllers
             httpClient = client;
         }
 
-        [HttpGet("/Health")]
+        [HttpGet("Health")]
         public async Task<IActionResult> Health()
         {
             return Ok("Caminho da controller OK");

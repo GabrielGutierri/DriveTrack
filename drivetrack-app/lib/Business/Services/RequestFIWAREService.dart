@@ -34,35 +34,30 @@ class RequestFIWAREService {
         "velocidade": {
           "type": "float",
           "value": TrataMensagemOBD.TrataMensagemVelocidade(dado.velocidade)
-          //"value": dado.velocidade
         },
         "rpm": {
           "type": "float",
           "value": TrataMensagemOBD.TrataMensagemRPM(dado.rpm)
-          //"value": dado.rpm
         },
         "pressure": {
           "type": "float",
           "value": TrataMensagemOBD.TrataMensagemIntakePressure(
               dado.pressaoColetorAdmissao)
-          //"value": dado.pressaoColetorAdmissao
         },
         "temperature": {
           "type": "float",
           "value": TrataMensagemOBD.TrataMensagemIntakeTemperature(
               dado.tempArAdmissao)
-          //"value": dado.tempArAdmissao
         },
         "engineload": {
           "type": "float",
           "value": TrataMensagemOBD.TrataMensagemEngineLoad(dado.engineLoad)
-          //"value": dado.engineLoad
+          
         },
         "throttlePosition": {
           "type": "float",
           "value": TrataMensagemOBD.TrataMensagemThrottlePosition(
-              dado.throttlePosition)
-          //"value": dado.throttlePosition
+               dado.throttlePosition)
         },
         "location": {
           "type": "geo:json",
@@ -216,7 +211,7 @@ class RequestFIWAREService {
   static Future<int> ultimoIdCorrida() async {
     String ip = Fiwareservice.ip;
     var url = Uri.parse(
-        "http://$ip:8666/STH/v1/contextEntities/type/Carro/id/$deviceName/attributes/idCorrida?lastN=1");
+        "http://$ip:8666/STH/v1/contextEntities/type/iot/id/$deviceName/attributes/idCorrida?lastN=1");
 
     Response response = await http.get(
       url,
