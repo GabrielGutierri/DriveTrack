@@ -1,0 +1,12 @@
+C:\FESA\DriveTrack\drivetrack-api\DriveTrackAPI\publish\DriveTrackAPI.exe
+C:\FESA\DriveTrack\drivetrack-api\DriveTrackAPI\publish\appsettings.Development.json
+C:\FESA\DriveTrack\drivetrack-api\DriveTrackAPI\publish\appsettings.json
+C:\FESA\DriveTrack\drivetrack-api\DriveTrackAPI\publish\DriveTrackAPI.dll
+C:\FESA\DriveTrack\drivetrack-api\DriveTrackAPI\publish\DriveTrackAPI.deps.json
+C:\FESA\DriveTrack\drivetrack-api\DriveTrackAPI\publish\DriveTrackAPI.runtimeconfig.json
+C:\FESA\DriveTrack\drivetrack-api\DriveTrackAPI\publish\DriveTrackAPI.pdb
+C:\FESA\DriveTrack\drivetrack-api\DriveTrackAPI\publish\Microsoft.OpenApi.dll
+C:\FESA\DriveTrack\drivetrack-api\DriveTrackAPI\publish\Newtonsoft.Json.dll
+C:\FESA\DriveTrack\drivetrack-api\DriveTrackAPI\publish\Swashbuckle.AspNetCore.Swagger.dll
+C:\FESA\DriveTrack\drivetrack-api\DriveTrackAPI\publish\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\FESA\DriveTrack\drivetrack-api\DriveTrackAPI\publish\Swashbuckle.AspNetCore.SwaggerUI.dll

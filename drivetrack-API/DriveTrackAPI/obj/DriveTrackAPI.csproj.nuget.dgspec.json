@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\FESA\\DriveTrack\\drivetrack-API\\DriveTrackAPI\\DriveTrackAPI.csproj": {}
+    "C:\\FESA\\DriveTrack\\drivetrack-api\\DriveTrackAPI\\DriveTrackAPI.csproj": {}
   },
   "projects": {
-    "C:\\FESA\\DriveTrack\\drivetrack-API\\DriveTrackAPI\\DriveTrackAPI.csproj": {
+    "C:\\FESA\\DriveTrack\\drivetrack-api\\DriveTrackAPI\\DriveTrackAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\FESA\\DriveTrack\\drivetrack-API\\DriveTrackAPI\\DriveTrackAPI.csproj",
+        "projectUniqueName": "C:\\FESA\\DriveTrack\\drivetrack-api\\DriveTrackAPI\\DriveTrackAPI.csproj",
         "projectName": "DriveTrackAPI",
-        "projectPath": "C:\\FESA\\DriveTrack\\drivetrack-API\\DriveTrackAPI\\DriveTrackAPI.csproj",
+        "projectPath": "C:\\FESA\\DriveTrack\\drivetrack-api\\DriveTrackAPI\\DriveTrackAPI.csproj",
         "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
-        "outputPath": "C:\\FESA\\DriveTrack\\drivetrack-API\\DriveTrackAPI\\obj\\",
+        "outputPath": "C:\\FESA\\DriveTrack\\drivetrack-api\\DriveTrackAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
