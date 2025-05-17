@@ -1,0 +1,50 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "DriveTrackAPI",
+    "version": "1.0"
+  },
+  "paths": {
+    "/Health": {
+      "get": {
+        "tags": [
+          "HistoricoCorridas"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/HistoricoCorridas": {
+      "get": {
+        "tags": [
+          "HistoricoCorridas"
+        ],
+        "parameters": [
+          {
+            "name": "nomeCarro",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "placaCarro",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": { }
+}

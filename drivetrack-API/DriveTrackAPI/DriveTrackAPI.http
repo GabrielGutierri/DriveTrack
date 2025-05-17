@@ -1,0 +1,6 @@
+@DriveTrackAPI_HostAddress = http://localhost:5265
+
+GET {{DriveTrackAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

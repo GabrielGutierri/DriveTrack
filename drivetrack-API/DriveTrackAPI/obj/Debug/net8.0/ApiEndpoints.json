@@ -1,0 +1,33 @@
+[
+  {
+    "ContainingType": "DriveTrackAPI.Controllers.HistoricoCorridasController",
+    "Method": "BuscaCorridasEntidade",
+    "RelativePath": "api/HistoricoCorridas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nomeCarro",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "placaCarro",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DriveTrackAPI.Controllers.HistoricoCorridasController",
+    "Method": "Health",
+    "RelativePath": "Health",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

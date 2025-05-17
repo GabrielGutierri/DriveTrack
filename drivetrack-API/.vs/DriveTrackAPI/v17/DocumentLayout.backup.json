@@ -1,0 +1,133 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\FESA\\DriveTrack\\drivetrack-API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{35930D62-14A1-40A3-9257-EDB0C1DD10A6}|DriveTrackAPI\\DriveTrackAPI.csproj|c:\\fesa\\drivetrack\\drivetrack-api\\drivetrackapi\\controllers\\historicocorridascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35930D62-14A1-40A3-9257-EDB0C1DD10A6}|DriveTrackAPI\\DriveTrackAPI.csproj|solutionrelative:drivetrackapi\\controllers\\historicocorridascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35930D62-14A1-40A3-9257-EDB0C1DD10A6}|DriveTrackAPI\\DriveTrackAPI.csproj|c:\\fesa\\drivetrack\\drivetrack-api\\drivetrackapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{35930D62-14A1-40A3-9257-EDB0C1DD10A6}|DriveTrackAPI\\DriveTrackAPI.csproj|solutionrelative:drivetrackapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35930D62-14A1-40A3-9257-EDB0C1DD10A6}|DriveTrackAPI\\DriveTrackAPI.csproj|c:\\fesa\\drivetrack\\drivetrack-api\\drivetrackapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{35930D62-14A1-40A3-9257-EDB0C1DD10A6}|DriveTrackAPI\\DriveTrackAPI.csproj|solutionrelative:drivetrackapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35930D62-14A1-40A3-9257-EDB0C1DD10A6}|DriveTrackAPI\\DriveTrackAPI.csproj|c:\\fesa\\drivetrack\\drivetrack-api\\drivetrackapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35930D62-14A1-40A3-9257-EDB0C1DD10A6}|DriveTrackAPI\\DriveTrackAPI.csproj|solutionrelative:drivetrackapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35930D62-14A1-40A3-9257-EDB0C1DD10A6}|DriveTrackAPI\\DriveTrackAPI.csproj|c:\\fesa\\drivetrack\\drivetrack-api\\drivetrackapi\\model\\corridaresumo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35930D62-14A1-40A3-9257-EDB0C1DD10A6}|DriveTrackAPI\\DriveTrackAPI.csproj|solutionrelative:drivetrackapi\\model\\corridaresumo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35930D62-14A1-40A3-9257-EDB0C1DD10A6}|DriveTrackAPI\\DriveTrackAPI.csproj|c:\\fesa\\drivetrack\\drivetrack-api\\drivetrackapi\\model\\cometresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35930D62-14A1-40A3-9257-EDB0C1DD10A6}|DriveTrackAPI\\DriveTrackAPI.csproj|solutionrelative:drivetrackapi\\model\\cometresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35930D62-14A1-40A3-9257-EDB0C1DD10A6}|DriveTrackAPI\\DriveTrackAPI.csproj|c:\\fesa\\drivetrack\\drivetrack-api\\drivetrackapi\\drivetrackapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{35930D62-14A1-40A3-9257-EDB0C1DD10A6}|DriveTrackAPI\\DriveTrackAPI.csproj|solutionrelative:drivetrackapi\\drivetrackapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HistoricoCorridasController.cs",
+              "DocumentMoniker": "C:\\FESA\\DriveTrack\\drivetrack-API\\DriveTrackAPI\\Controllers\\HistoricoCorridasController.cs",
+              "RelativeDocumentMoniker": "DriveTrackAPI\\Controllers\\HistoricoCorridasController.cs",
+              "ToolTip": "C:\\FESA\\DriveTrack\\drivetrack-API\\DriveTrackAPI\\Controllers\\HistoricoCorridasController.cs",
+              "RelativeToolTip": "DriveTrackAPI\\Controllers\\HistoricoCorridasController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T14:51:24.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\FESA\\DriveTrack\\drivetrack-API\\DriveTrackAPI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "DriveTrackAPI\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\FESA\\DriveTrack\\drivetrack-API\\DriveTrackAPI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "DriveTrackAPI\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-25T22:15:48.232Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\FESA\\DriveTrack\\drivetrack-API\\DriveTrackAPI\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "DriveTrackAPI\\appsettings.Development.json",
+              "ToolTip": "C:\\FESA\\DriveTrack\\drivetrack-API\\DriveTrackAPI\\appsettings.Development.json",
+              "RelativeToolTip": "DriveTrackAPI\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-25T22:15:42.213Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\FESA\\DriveTrack\\drivetrack-API\\DriveTrackAPI\\Program.cs",
+              "RelativeDocumentMoniker": "DriveTrackAPI\\Program.cs",
+              "ToolTip": "C:\\FESA\\DriveTrack\\drivetrack-API\\DriveTrackAPI\\Program.cs",
+              "RelativeToolTip": "DriveTrackAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T14:51:07.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CorridaResumo.cs",
+              "DocumentMoniker": "C:\\FESA\\DriveTrack\\drivetrack-API\\DriveTrackAPI\\Model\\CorridaResumo.cs",
+              "RelativeDocumentMoniker": "DriveTrackAPI\\Model\\CorridaResumo.cs",
+              "ToolTip": "C:\\FESA\\DriveTrack\\drivetrack-API\\DriveTrackAPI\\Model\\CorridaResumo.cs",
+              "RelativeToolTip": "DriveTrackAPI\\Model\\CorridaResumo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T16:28:43.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CometResponse.cs",
+              "DocumentMoniker": "C:\\FESA\\DriveTrack\\drivetrack-API\\DriveTrackAPI\\Model\\CometResponse.cs",
+              "RelativeDocumentMoniker": "DriveTrackAPI\\Model\\CometResponse.cs",
+              "ToolTip": "C:\\FESA\\DriveTrack\\drivetrack-API\\DriveTrackAPI\\Model\\CometResponse.cs",
+              "RelativeToolTip": "DriveTrackAPI\\Model\\CometResponse.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwB0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T16:35:23.722Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DriveTrackAPI.csproj",
+              "DocumentMoniker": "C:\\FESA\\DriveTrack\\drivetrack-API\\DriveTrackAPI\\DriveTrackAPI.csproj",
+              "RelativeDocumentMoniker": "DriveTrackAPI\\DriveTrackAPI.csproj",
+              "ToolTip": "C:\\FESA\\DriveTrack\\drivetrack-API\\DriveTrackAPI\\DriveTrackAPI.csproj",
+              "RelativeToolTip": "DriveTrackAPI\\DriveTrackAPI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-21T14:50:36.48Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
