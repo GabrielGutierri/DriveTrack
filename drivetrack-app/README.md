@@ -43,10 +43,12 @@ O aplicativo é composto por três áreas principais: coleta de dados, históric
 
 A tela de coleta de dados é composta por um botão principal para iniciar uma corrida e encerrar a corrida. Ao iniciar a corrida, serviços em segundo plano são iniciados e buscam os dados de um dispositivo OBD escolhido pelo usuário. Além disso, durante a corrida, são o aplicativo ainda mostra as informações de velocidade, rotação do motor (RPM)            pressão do coletor de admissão, temperatura do ar de admissão, carga calculada do motor, posição do acelerador.
 
+![Tela de coleta de dados](images/TelaColetaDados.jpeg)
+
 ### Serviços da coleta de dados
 O sistema é composto por cinco serviços que rodam em paralelo e são acionados por **canais de método** entre Flutter (Dart) e Kotlin (Android). A imagem abaixo apresenta um desenho para os serviços mencionados.
 
-
+![Fluxo de coleta de dados](images/ArquiteturaMobile.png)
 
 #### 1. Coleta via Bluetooth
 A cada **1 segundo**, o app envia comandos via `flutter_blue_classic` ao ELM327, salvando:
@@ -106,7 +108,7 @@ Ao selecionar uma corrida, são exibidos os seguintes dados:
 
 Os dados são recuperados através de uma Web API, que consulta o STH-Comet e retorna as informações em formato JSON
 
-[print da tela de histórico]
+![Fluxo de coleta de dados](images/TelaHistorico.jpeg)
 
 ## 👨‍💻 Desenvolvedores
 - Gabriel Gutierri da Costa
