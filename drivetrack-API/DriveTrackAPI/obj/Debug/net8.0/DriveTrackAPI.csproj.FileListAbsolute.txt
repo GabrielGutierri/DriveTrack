@@ -72,3 +72,4 @@ C:\FESA\DriveTrack\drivetrack-API\DriveTrackAPI\obj\Debug\net8.0\refint\DriveTra
 C:\FESA\DriveTrack\drivetrack-API\DriveTrackAPI\obj\Debug\net8.0\DriveTrackAPI.pdb
 C:\FESA\DriveTrack\drivetrack-API\DriveTrackAPI\obj\Debug\net8.0\DriveTrackAPI.genruntimeconfig.cache
 C:\FESA\DriveTrack\drivetrack-API\DriveTrackAPI\obj\Debug\net8.0\ref\DriveTrackAPI.dll
+C:\FESA\DriveTrack\drivetrack-API\DriveTrackAPI\obj\Debug\net8.0\DriveTrackAPI.sourcelink.json

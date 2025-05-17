@@ -1,0 +1,47 @@
+name: Deploy API da pasta ProjetoAPI
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        working-directory: drivetrack-API 
+
+    steps:
+    - name: Checkout do código
+      uses: actions/checkout@v3
+
+    - name: Instalar .NET
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: '8.0.x'
+
+    - name: Restore e Build
+      run: |
+        dotnet restore
+        dotnet publish -c Release -o publish
+
+    - name: Copiar via SCP para o servidor
+      uses: appleboy/scp-action@v0.1.4
+      with:
+        host: ${{ secrets.SSH_HOST }}
+        username: ${{ secrets.SSH_USER }}
+        key: ${{ secrets.SSH_PRIVATE_KEY }}
+        source: "ProjetoAPI/publish/*"
+        target: "/home/${{ secrets.SSH_USER }}/api"
+
+    - name: Rodar a API
+      uses: appleboy/ssh-action@v1.0.3
+      with:
+        host: ${{ secrets.SSH_HOST }}
+        username: ${{ secrets.SSH_USER }}
+        key: ${{ secrets.SSH_PRIVATE_KEY }}
+        script: |
+          pkill -f 'dotnet' || true
+          nohup ~/.dotnet/dotnet /home/${{ secrets.SSH_USER }}/api/DriveTrackAPI.dll > /dev/null 2>&1 &

@@ -31,7 +31,7 @@ class Fiwareservice {
     Map<String, dynamic> jsonMap = jsonDecode(response.body);
     RetornoDispositivoFiwareTO dispositivo =
         RetornoDispositivoFiwareTO.fromJson(jsonMap);
-    return dispositivo.id == deviceName && dispositivo.type == 'Carro';
+    return dispositivo.id == deviceName && dispositivo.type == 'iot';
   }
 
   bool respostaNaoExisteValida(Response response) {
