@@ -1,4 +1,4 @@
-name: Deploy DriveTrackAPI para servidor
+name: Deploy DriveTrackAPI
 
 on:
   push:
@@ -8,6 +8,10 @@ jobs:
   build-deploy:
     runs-on: ubuntu-latest
 
+    defaults:
+      run:
+        working-directory: drivetrack-api/DriveTrackAPI  # 👈 define o diretório base dos comandos
+
     steps:
     - name: Checkout do código
       uses: actions/checkout@v3
@@ -15,12 +19,12 @@ jobs:
     - name: Setup .NET
       uses: actions/setup-dotnet@v3
       with:
-        dotnet-version: '8.0.x'  # ajuste para sua versão
+        dotnet-version: '8.0.x'
 
     - name: Build e Publish
       run: |
-        dotnet restore drivetrack-api/DriveTrackAPI/DriveTrackAPI.csproj
-        dotnet publish drivetrack-api/DriveTrackAPI/DriveTrackAPI.csproj -c Release -o drivetrack-api/DriveTrackAPI/publish
+        dotnet restore DriveTrackAPI.csproj
+        dotnet publish DriveTrackAPI.csproj -c Release -o publish
 
     - name: Copiar arquivos para o servidor via SCP
       uses: appleboy/scp-action@v0.1.4
