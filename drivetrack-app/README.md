@@ -1,6 +1,6 @@
-# 🚗 DriveTrack
+# 🚗 DriveTrack App 
 
-O **DriveTrack** é um aplicativo desenvolvido em Flutter que tem como principal função a coleta de dados veiculares, para análise de comportamentos de condução. Se conectando a sensores OBD2 conectados via Bluetooth, o app registra as informações de velocidade do veículo, velocidade do motor, pressão do coletor de admissão, temperatura do ar de admissão, carga do motor e posição do acelerador. Simultaneamente, sensores do smartphone capturam dados de aceleração, giroscópio e geolocalização. Todas as informações são organizadas em estruturas de dados locais e enviadas periodicamente para a plataforma FIWARE, durante uma corrida.
+Esse repositório se trata de um aplicativo desenvolvido em Flutter que tem como principal função a coleta de dados veiculares, para análise de comportamentos de condução. Se conectando a sensores OBD2 conectados via Bluetooth, o app registra as informações de velocidade do veículo, velocidade do motor, pressão do coletor de admissão, temperatura do ar de admissão, carga do motor e posição do acelerador. Simultaneamente, sensores do smartphone capturam dados de aceleração, giroscópio e geolocalização. Todas as informações são organizadas em estruturas de dados locais e enviadas periodicamente para a plataforma FIWARE, durante uma corrida.
 
 ## ✅ Funcionalidades
 
@@ -109,10 +109,4 @@ Ao selecionar uma corrida, são exibidos os seguintes dados:
 
 Os dados são recuperados através de uma Web API, que consulta o STH-Comet e retorna as informações em formato JSON
 
-<img src="./images/TelaHistorico.jpeg" height= 30%/>
-
-## 👨‍💻 Desenvolvedores
-- Gabriel Gutierri da Costa
-- Gabriel Foramilio Araujo
-- José Honório Junior
-- Vinícius Afonso dos Santos
+<img src="./images/TelaHistorico.jpeg" height="400px"/>
